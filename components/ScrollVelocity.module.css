@@ -1,0 +1,26 @@
+.parallax {
+  position: relative;
+  overflow: hidden;
+}
+
+.scroller {
+  display: flex;
+  white-space: nowrap;
+  text-align: center;
+  font-size: 1.25rem;
+  line-height: 1.25;
+  font-weight: 800;
+  letter-spacing: 0;
+  color: #0f172a;
+}
+
+.copy {
+  flex-shrink: 0;
+  padding-right: 1rem;
+}
+
+@media (min-width: 768px) {
+  .scroller {
+    font-size: 2rem;
+  }
+}

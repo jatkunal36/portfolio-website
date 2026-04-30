@@ -1,0 +1,27 @@
+.scrambled-shell {
+  position: relative;
+  overflow: hidden;
+}
+
+.scrambled-parallax {
+  position: absolute;
+  inset: auto -4rem -2rem auto;
+  width: 14rem;
+  height: 14rem;
+  border-radius: 999px;
+  background: radial-gradient(circle, rgba(56, 189, 248, 0.12), transparent 70%);
+  filter: blur(14px);
+  pointer-events: none;
+}
+
+.text-block {
+  margin: 0;
+  max-width: 100%;
+  font: inherit;
+  color: inherit;
+}
+
+.char {
+  will-change: transform, contents;
+  display: inline-block;
+}

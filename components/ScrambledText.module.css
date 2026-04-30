@@ -1,0 +1,12 @@
+.textBlock {
+  width: 100%;
+}
+
+.paragraph {
+  margin: 0;
+}
+
+.char {
+  will-change: transform, contents;
+  display: inline-block;
+}
